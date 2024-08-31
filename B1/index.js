@@ -1,4 +1,4 @@
-const http = require('node:http');
+import http from "node:http"
 
 http
     .createServer((request, response) => {
@@ -9,4 +9,4 @@ http
         response.end();
 
     })
-    .listen(8080);
+    .listen(2000);
