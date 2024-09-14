@@ -1,0 +1,140 @@
+{
+  "OSType": "Windows_NT",
+  "Platform": "win32",
+  "RAM": 8241881088,
+  "USERRAM": 7150452736,
+  "CPU": [
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 430187,
+        "nice": 0,
+        "sys": 553593,
+        "idle": 6909093,
+        "irq": 40343
+      }
+    },
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 225625,
+        "nice": 0,
+        "sys": 185953,
+        "idle": 7481156,
+        "irq": 8281
+      }
+    },
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 405687,
+        "nice": 0,
+        "sys": 494000,
+        "idle": 6993031,
+        "irq": 22531
+      }
+    },
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 229093,
+        "nice": 0,
+        "sys": 169171,
+        "idle": 7494468,
+        "irq": 4187
+      }
+    },
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 61000,
+        "nice": 0,
+        "sys": 46640,
+        "idle": 7785093,
+        "irq": 1546
+      }
+    },
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 40765,
+        "nice": 0,
+        "sys": 33671,
+        "idle": 7818296,
+        "irq": 1218
+      }
+    },
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 35250,
+        "nice": 0,
+        "sys": 30578,
+        "idle": 7826875,
+        "irq": 1281
+      }
+    },
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 29875,
+        "nice": 0,
+        "sys": 25000,
+        "idle": 7837828,
+        "irq": 1093
+      }
+    },
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 48281,
+        "nice": 0,
+        "sys": 44359,
+        "idle": 7800078,
+        "irq": 1500
+      }
+    },
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 31937,
+        "nice": 0,
+        "sys": 28671,
+        "idle": 7832093,
+        "irq": 1125
+      }
+    },
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 45218,
+        "nice": 0,
+        "sys": 33828,
+        "idle": 7813640,
+        "irq": 1265
+      }
+    },
+    {
+      "model": "12th Gen Intel(R) Core(TM) i5-1235U",
+      "speed": 2496,
+      "times": {
+        "user": 36625,
+        "nice": 0,
+        "sys": 38500,
+        "idle": 7817578,
+        "irq": 781
+      }
+    }
+  ]
+}
