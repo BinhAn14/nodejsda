@@ -4,17 +4,17 @@ import os from "node:os"
 import fs from "node:fs"
 import EventEmitter from 'node:events';
 
-const eventEmitter = new EventEmitter();
+// const eventEmitter = new EventEmitter();
 
-eventEmitter.on("end", (number, x) => {
-    console.log(`done ${number} ${x} !!!`);
-})
-eventEmitter.emit("end", 1, 4)
-eventEmitter.emit("end", 2, 3)
-eventEmitter.emit("end", 5, 6)
-    // const notes = '/users/joe/notes.txt';
-    // let name = "abc"
-    // let file = "xyz.txt"
+// eventEmitter.on("end", (number, x) => {
+//     console.log(`done ${number} ${x} !!!`);
+// })
+// eventEmitter.emit("end", 1, 4)
+// eventEmitter.emit("end", 2, 3)
+// eventEmitter.emit("end", 5, 6)
+// const notes = '/users/joe/notes.txt';
+// let name = "abc"
+// let file = "xyz.txt"
 
 // path.basename(notes)
 // let a = path.join(name, file)
@@ -48,3 +48,70 @@ http
 
     })
     .listen(2000);
+
+// function sum(a, b, fun) {
+//     let c = 0
+//     setTimeout(() => {
+//         c = a + b;
+//         fun(c)
+//     }, 0)
+//     return c;
+// }
+
+// let a = sum(1, 4, function(data) {
+//     console.log(data)
+// });
+
+function getUseriD(fn) {
+    setTimeout(() => {
+        let userID = 10
+        fn(userID)
+    })
+}
+
+function getPostiD(userID, fun) {
+    setTimeout(() => {
+        let postID = { id: 12, name: "abc" }
+        fun(postID)
+    })
+}
+
+function getCommentiD(postID, fun) {
+    setTimeout(() => {
+        let comment = { id: 13, name: "def" }
+        fun(comment)
+    })
+}
+// getUseriD((userID) => {
+//     getPostiD(userID, function(postID) {
+//         getCommentiD(postID, function(comment) {
+//             console.log(comment)
+//         });
+//     })
+// })
+
+let abc = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        getUseriD((data) => {
+            resolve(data)
+        })
+
+    }, 0);
+});
+abc
+    .then((data) => {
+        getPostiD(data, function(postID) {
+            return postID;
+        });
+    })
+    .then((postID) => {
+        getCommentiD(postID, function(comment) {
+            console.log(comment);
+        });
+    })
+    .catch((data) => {
+        console.log(data)
+    })
+    .finally(() => {
+        console.log("finally")
+    })
