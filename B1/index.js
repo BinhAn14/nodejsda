@@ -80,7 +80,7 @@ function getPostiD(userID) {
     })
 }
 
-function getCommentiD(postID, fun) {
+function getCommentiD(postID) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             let comment = { id: 13, name: "def" }
@@ -127,10 +127,14 @@ async function zbc() {
     let user = await getUseriD();
     let post = await getPostiD(user);
     let comment = await getCommentiD(post);
-    return comment
+    return (comment, post, user)
 }
 
 
 zbc().then((data) => {
-    console.log(data)
+    console.log("ASYNC", data)
+})
+
+Promise.all([getUseriD(), getPostiD(), getCommentiD()]).then((data) => {
+    console.log("Promise All", data)
 })
