@@ -62,24 +62,30 @@ http
 //     console.log(data)
 // });
 
-function getUseriD(fn) {
-    setTimeout(() => {
-        let userID = 10
-        fn(userID)
+function getUseriD() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            let userID = 10
+            resolve(userID)
+        })
     })
 }
 
-function getPostiD(userID, fun) {
-    setTimeout(() => {
-        let postID = { id: 12, name: "abc" }
-        fun(postID)
+function getPostiD(userID) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            let postID = { id: 12, name: "abc" }
+            resolve(postID)
+        })
     })
 }
 
 function getCommentiD(postID, fun) {
-    setTimeout(() => {
-        let comment = { id: 13, name: "def" }
-        fun(comment)
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            let comment = { id: 13, name: "def" }
+            resolve(comment)
+        })
     })
 }
 // getUseriD((userID) => {
@@ -90,28 +96,41 @@ function getCommentiD(postID, fun) {
 //     })
 // })
 
-let abc = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        getUseriD((data) => {
-            resolve(data)
-        })
+// let abc = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         getUseriD((data) => {
+//             resolve(data)
+//         })
 
-    }, 0);
-});
-abc
-    .then((data) => {
-        getPostiD(data, function(postID) {
-            return postID;
-        });
-    })
-    .then((postID) => {
-        getCommentiD(postID, function(comment) {
-            console.log(comment);
-        });
-    })
-    .catch((data) => {
-        console.log(data)
-    })
-    .finally(() => {
-        console.log("finally")
-    })
+//     }, 0);
+// });
+// abc
+//     .then((data) => {
+//         getPostiD(data, function(postID) {
+//             return postID;
+//         });
+//     })
+//     .then((postID) => {
+//         getCommentiD(postID, function(comment) {
+//             console.log(comment);
+//         });
+//     })
+//     .catch((data) => {
+//         console.log(data)
+//     })
+//     .finally(() => {
+//         console.log("finally")
+//     })
+
+
+async function zbc() {
+    let user = await getUseriD();
+    let post = await getPostiD(user);
+    let comment = await getCommentiD(post);
+    return comment
+}
+
+
+zbc().then((data) => {
+    console.log(data)
+})
