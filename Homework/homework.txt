@@ -2,138 +2,138 @@
   "OSType": "Windows_NT",
   "Platform": "win32",
   "RAM": 8241881088,
-  "USERRAM": 7400837120,
+  "USERRAM": 7132688384,
   "CPU": [
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 1674031,
+        "user": 1120328,
         "nice": 0,
-        "sys": 1468859,
-        "idle": 35368250,
-        "irq": 248000
+        "sys": 1011109,
+        "idle": 16848500,
+        "irq": 149593
       }
     },
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 568109,
+        "user": 402328,
         "nice": 0,
-        "sys": 504187,
-        "idle": 37438671,
-        "irq": 82609
+        "sys": 374546,
+        "idle": 18202906,
+        "irq": 53828
       }
     },
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 901859,
+        "user": 649484,
         "nice": 0,
-        "sys": 662312,
-        "idle": 36946796,
-        "irq": 25015
+        "sys": 484640,
+        "idle": 17845671,
+        "irq": 19406
       }
     },
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 334984,
+        "user": 258515,
         "nice": 0,
-        "sys": 243578,
-        "idle": 37932390,
-        "irq": 9046
+        "sys": 204109,
+        "idle": 18517125,
+        "irq": 10359
       }
     },
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 364125,
+        "user": 239515,
         "nice": 0,
-        "sys": 265984,
-        "idle": 37880843,
-        "irq": 12546
+        "sys": 184656,
+        "idle": 18555609,
+        "irq": 6578
       }
     },
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 231156,
+        "user": 157953,
         "nice": 0,
-        "sys": 159671,
-        "idle": 38120125,
-        "irq": 6234
+        "sys": 127984,
+        "idle": 18693828,
+        "irq": 3859
       }
     },
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 201859,
+        "user": 136406,
         "nice": 0,
-        "sys": 154218,
-        "idle": 38154875,
-        "irq": 6984
+        "sys": 117000,
+        "idle": 18726359,
+        "irq": 3906
       }
     },
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 208484,
+        "user": 141171,
         "nice": 0,
-        "sys": 153171,
-        "idle": 38149296,
-        "irq": 6046
+        "sys": 119828,
+        "idle": 18718765,
+        "irq": 4812
       }
     },
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 375609,
+        "user": 247187,
         "nice": 0,
-        "sys": 287765,
-        "idle": 37847562,
-        "irq": 13265
+        "sys": 216171,
+        "idle": 18516406,
+        "irq": 7937
       }
     },
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 256078,
+        "user": 178265,
         "nice": 0,
-        "sys": 194171,
-        "idle": 38060687,
-        "irq": 7968
+        "sys": 137562,
+        "idle": 18663921,
+        "irq": 4203
       }
     },
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 225046,
+        "user": 160234,
         "nice": 0,
-        "sys": 158531,
-        "idle": 38127359,
-        "irq": 5875
+        "sys": 123656,
+        "idle": 18695859,
+        "irq": 3718
       }
     },
     {
       "model": "12th Gen Intel(R) Core(TM) i5-1235U",
       "speed": 2496,
       "times": {
-        "user": 209578,
+        "user": 156625,
         "nice": 0,
-        "sys": 149921,
-        "idle": 38151437,
-        "irq": 5906
+        "sys": 120937,
+        "idle": 18702187,
+        "irq": 3984
       }
     }
   ]
