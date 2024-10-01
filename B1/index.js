@@ -45,7 +45,7 @@ function buildItem({ name, start_date, end_date, description }) {
 
     return `<div class="w3-container">
           <h5 class="w3-opacity"><b>${name}</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>${start_date}<span class="w3-tag w3-teal w3-round">${end_date}</span></h6>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>${start_date} -   <span class="w3-tag w3-teal w3-round">${end_date}</span></h6>
           <p>${description}</p>
           <hr>
         </div>
@@ -96,7 +96,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <img src="https://www.w3schools.com/w3images/avatar_hat.jpg"style="width:100%" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-black">
             <h2>Jane Doe</h2>
           </div>
