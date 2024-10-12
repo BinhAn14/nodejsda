@@ -55,8 +55,14 @@ function buildEducation() {
 router.get("/about", (req, res) => {
     res.send(`<h1>This is about page<h1>`)
 })
+
 router.get("/", (req, res) => {
+    console.log(req.query)
     res.render("index", { title: "Home", workerExperience, education })
 });
 
+router.get("/cv/:id", (req, res) => {
+    console.log(req.params)
+    res.render("cv", { title: "CV", workerExperience, education })
+});
 export default router;
